@@ -474,14 +474,14 @@ img {
   max-width: 555px;
 }
 
-.card__first, .card__second {
+.card__first,
+.card__second {
   margin-bottom: 15px;
   height: 50%;
-width: 270px;
-    background-color: #EDEDED; 
+  width: 270px;
+  background-color: #ededed;
 }
 
 .card__pic {
   max-width: 30px;
 }
-
