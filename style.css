@@ -447,12 +447,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 135px;
+  gap: 60px;
 }
 
 .info {
   max-width: 480px;
-  margin-right: 60px;
 }
 
 .info__header {
@@ -483,22 +482,24 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .card__first,
 .card__second {
   width: 270px;
-  height: 194px;
   margin-bottom: 15px;
 }
 
-.cards__second-column {
-  height: 403px;
-}
 .card__third {
   width: 270px;
   height: 100%;
   justify-content: center;
+}
+
+.cards__second-column {
+  margin-bottom: 30px;
 }
 
 .card__header {
@@ -531,5 +532,5 @@ img {
   text-decoration: none;
   padding: 12px 40px;
   color: white;
-  background: #0A467E;
+  background: #0a467e;
 }
