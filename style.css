@@ -443,7 +443,7 @@ img {
 
 .wrapper {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 60px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -467,16 +467,11 @@ img {
 .cards {
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
-}
-
-.cards__first-column {
-  padding-bottom: 15px;
+  gap: 20px;
 }
 
 .card {
   background-color: #ededed;
-  margin-right: 10px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -489,17 +484,16 @@ img {
 .card__first,
 .card__second {
   width: 270px;
-  margin-bottom: 15px;
+}
+
+.card__first {
+  margin-bottom: 20px;
 }
 
 .card__third {
   width: 270px;
   height: 100%;
   justify-content: center;
-}
-
-.cards__second-column {
-  margin-bottom: 30px;
 }
 
 .card__header {
