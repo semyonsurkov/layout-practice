@@ -438,23 +438,20 @@ html {
 }
 
 img {
-  width: 100%;
   max-height: auto;
 }
 
 .wrapper {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 60px auto 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 135px;
+  gap: 60px;
 }
 
 .info {
   max-width: 480px;
-  padding-top: 176px;
-  margin-right: 60px;
 }
 
 .info__header {
@@ -469,19 +466,65 @@ img {
 
 .cards {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ededed;
+  border-radius: 5px;
+  display: flex;
   flex-direction: column;
-  max-width: 555px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .card__first,
 .card__second {
-  margin-bottom: 15px;
-  height: 50%;
   width: 270px;
-  background-color: #ededed;
+}
+
+.card__first {
+  margin-bottom: 20px;
+}
+
+.card__third {
+  width: 270px;
+  height: 100%;
+  justify-content: center;
+}
+
+.card__header {
+  padding-top: 12px;
+  width: 180px;
+}
+
+.card__header::after {
+  display: block;
+  content: '';
+  width: 170px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  margin-top: 12px;
+}
+
+.card__text {
+  margin-top: 15px;
+  width: 220px;
+  color: #56565a;
 }
 
 .card__pic {
   max-width: 30px;
+  padding-top: 23px;
+}
+
+.info__button {
+  text-decoration: none;
+  padding: 12px 40px;
+  color: white;
+  background: #0a467e;
 }
